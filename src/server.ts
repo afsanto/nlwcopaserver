@@ -11,7 +11,7 @@ import { authRoutes } from './routes/auth';
 
 
 
-async function bootstrap() {
+export async function bootstrap() {
     const fastify = Fastify({
         logger:true,
     })
@@ -37,3 +37,4 @@ async function bootstrap() {
 }
 
 bootstrap();
+
